@@ -9,11 +9,11 @@ public class CalculationLog
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
     [Required]
-    public int Number1 { get; set; }
+    public double Number1 { get; set; }
     [Required]
-    public int Number2 { get; set; }
+    public double Number2 { get; set; }
     [Required]
     public string Operation { get; set; }
     [Required]
-    public int Result { get; set; }
+    public double Result { get; set; }
 }
